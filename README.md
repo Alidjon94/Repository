@@ -26,7 +26,7 @@
 
 ```bash
 git clone https://github.com/your-username/cafe-orders.git
-cd cafe-orders
+cd cafe_orders
 ```
 
 2. Создайте и активируйте виртуальное окружение:
@@ -39,19 +39,20 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-4. Примените миграции:
+3. Примените миграции:
 
 ```bash
 python manage.py migrate
 ```
 
-5. Запустите сервер:
+4. Запустите сервер:
 
 ```bash
+python manage.py migrate
 python manage.py runserver
 ```
 
-6. Перейдите в браузере по адресу:
+5. Перейдите в браузере по адресу:
 
 ```
 http://127.0.0.1:8000/
