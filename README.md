@@ -39,12 +39,6 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Установите зависимости:
-
-```bash
-pip install -r requirements.txt
-```
-
 4. Примените миграции:
 
 ```bash
